@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  text-align: center;
+  margin: 50px;
+  background-color: #00000020;
+  padding: 10px;
+}
+button {
+  background-color: #06ff00;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+}
+.duck {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: duck 8s infinite;
+}
+
+@keyframes duck {
+  0% {
+    top: 20px;
+    left: 250px;
+    background: url("https://e7.pngegg.com/pngimages/644/738/png-clipart-yellow-duck-toy-plastic-duck-animals-ducks-thumbnail.png")
+      no-repeat;
+    background-size: contain;
+  }
+
+  50% {
+    top: 20px;
+    left: 20px;
+    background: url("https://e7.pngegg.com/pngimages/644/738/png-clipart-yellow-duck-toy-plastic-duck-animals-ducks-thumbnail.png")
+      no-repeat;
+    background-size: contain;
+  }
+
+  100% {
+    top: 20px;
+    left: 250px;
+    background: url("https://e7.pngegg.com/pngimages/644/738/png-clipart-yellow-duck-toy-plastic-duck-animals-ducks-thumbnail.png")
+      no-repeat;
+    background-size: contain;
+  }
+}
