@@ -1,7 +1,7 @@
 import "./styles.css";
 import App from "./App.js";
 import ReactDOM from "react-dom";
-
+import React from "react";
 export default function Signin() {
   function hii() {
     return ReactDOM.render(<App />, document.getElementById("root"));
